@@ -1,0 +1,50 @@
+.igs-bg {
+    background: url('../imgs/web-igs-bg.jpg') right/cover no-repeat;
+    min-height: 400px;
+}
+
+.btn-group button {
+    font-weight: 500;
+    color: #b1b1b1;
+}
+
+.btn-group span {
+    color: #b1b1b1;
+    font-weight: 500;
+}
+
+.btn-group button:hover {
+    color: #ba3f96;
+}
+
+.btn-group a:hover {
+    text-decoration: none !important;
+}
+
+.text-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.button-mobile {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    #igs-header-content .container {
+        padding: 0px !important;
+    }
+    .igs-bg {
+        border-bottom-right-radius: 200px;
+        background-position: 56% 50%;
+    }
+    .text-content h2 {
+        font-size: 36px;
+    }
+    .button-mobile {
+        display: inline !important;
+    }
+    .button-pc {
+        display: none !important;
+    }
+}

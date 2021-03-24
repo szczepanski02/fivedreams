@@ -1,0 +1,135 @@
+/* navbar changes */
+
+.nav-btn a {
+    color: #ba3f96 !important;
+    font-size: 16px;
+}
+
+.nav-btn {
+    border: solid #ba3f96 2px;
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
+    background-color: #ba3f96 !important;
+}
+
+.nav-btn:hover a {
+    color: white !important;
+}
+
+#main .lang-changer a {
+    font-size: 16px;
+    color: #9494a0;
+}
+
+#main .lang-changer-padding li {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.8;
+}
+
+.navbar-default {
+    padding-top: 3vh !important;
+    padding-bottom: 2vh !important;
+}
+
+
+/* ------ */
+
+.contact-bg {
+    background: url('../imgs/contact/bg-map.jpg') right/cover no-repeat;
+    min-height: 400px;
+}
+
+#contact-form h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#contact-form p {
+    padding-top: 20px;
+    color: #6c6c76;
+    text-align: center;
+}
+
+form {
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #efefef;
+    color: #363636;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+form label {
+    font-size: 16px;
+    color: #6c6c76;
+    font-weight: 500;
+    margin-bottom: 3px;
+    margin-top: 15px;
+}
+
+.form-button {
+    color: white !important;
+    font-weight: 500 !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ba3f96 !important;
+    border: 2px solid #ba3f96 !important;
+    transition: 200ms ease !important;
+    -moz-transition: 200ms ease;
+    -webkit-transtion: 200ms ease;
+    -o-transtion: 200ms ease;
+}
+
+.form-button:hover {
+    background-color: white !important;
+    color: #292929 !important;
+    transform: translateY(2px);
+}
+
+@media (max-width: 768px) {
+    #contact-header-content .container {
+        padding: 0px !important;
+    }
+    .contact-bg {
+        border-bottom-right-radius: 200px;
+        background-position: 56% 50%;
+    }
+    #contact-form h2 {
+        font-size: 32px !important;
+    }
+    #contact-form p {
+        font-size: 16px !important;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    form {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .navbar-default {
+        padding-top: 2vh !important;
+    }
+    #sendBtn {
+        float: initial !important;
+    }
+}

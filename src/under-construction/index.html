@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="../assets/imgs/favicon.png" />
+
+    <title>Trwają prace...</title>
+    <meta name="description" content="Under construction fivedreams website">
+    <meta name="keywords" content="fivedreams, fd, igs">
+    <meta name="author" content="fd II sp z.o.o.">
+
+    <link href="core.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="../assets/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="preloader"></div>
+
+    <script>
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('preloader').classList.add("fade-out");
+            }, 1000);
+            setTimeout(() => {
+                document.getElementById('preloader').style.display = "none";
+            }, 2000);
+        });
+    </script>
+    <div id="top-bar">
+        <div class="container">
+            <img src="../assets/imgs/logo.svg" alt="">
+        </div>
+    </div>
+    <div class="bg">
+        <div id="wrapper">
+            <div class="container">
+                <div class="row justifyc-content-center">
+                    <div class="item col-md-6 my-auto">
+                        <p>Przepraszamy!</p>
+                        <p2>Strona obecnie jest w trakcie tworzenia.</p2>
+                    </div>
+                    <div class="item col-md-6 my-auto">
+                        <img src="../assets/imgs/logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../assets/bootstrap/bootstrap.min.js"></script>
+
+</html>

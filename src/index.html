@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+
+<head lang="pl">
+    <link rel="icon" type="image/png" href="assets/imgs/favicon.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- ABOUT WEBSITE -->
+    <title>Fivedreams.eu</title>
+    <meta name="description" content="Strona główna fivedreams.eu">
+    <meta name="keywords" content="fivedreams, fd, igs">
+    <meta name="author" content="fd II sp z.o.o.">
+
+    <!-- CSS FILES -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/navbar-toggler.css" rel="stylesheet" type="text/css" />
+
+    <!-- BOOTSTRAP -->
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- JS FILES -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/core.js" type="text/javascript"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+        window.onload = function() {
+            fn1();
+            btnValue();
+            arrowValue();
+        }
+        window.onresize = function(event) {
+            btnValue();
+            arrowValue();
+        }
+    </script>
+</head>
+
+<body>
+    <div id="preloader"></div>
+    <script>
+        var $ = jQuery.noConflict();
+        $(document).ready(function() {
+            $('#carouselfd').carousel({
+                interval: 10000,
+                cycle: true
+            });
+        });
+    </script>
+
+    <!--           navbar section           -->
+    <header id="main">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-default fixed-top">
+            <div class="container">
+                <a href="#"><img src="assets/imgs/logo.svg" width="90%"></a>
+                <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                    <span> </span>
+                    <span> </span>
+                    <span> </span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsingNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a id="text" class="nav-link item-first" href="#about-us-scroll">Firma</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services-scroll">Usługi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-main">Kontakt</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto lang-changer-padding">
+                        <li class="lang-changer lang-fr pl-5">
+                            <a class="nav-link mr-3" href="#">PL</a>
+                        </li>
+                        <li class="lang-changer lang-sec">
+                            <a class="nav-link mr-5" href="#">EN</a>
+                        </li>
+                        <li class="mobile-changer mx-auto">
+                            <a class="nav-link mr-4 px-1 mobile-fr" href="#">PL</a>
+                            <a class="nav-link mobile-second px-1 lang-sec" href="#">EN</a>
+                        </li>
+                        <li class="nav-btn">
+                            <a class="nav-link" href="contact.html">Umów spotkanie</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--           header content section           -->
+    <div class="header-content header-content-mobile">
+        <div class="container">
+            <div class="row align-items-center no-gutters">
+                <div class="header-left col-lg-7">
+                    <div class="desktop-text">
+                        <p>Osiągnij przynajmniej <span style="color: #ba3f96;">100%</span> wzrost swojej firmy w skali roku</p>
+                        <h1>Redefiniujemy biznes online</h1>
+                        <p class="py-4">Pobierz darmowy raport i dowiedz się jak zwiększymy Twój biznes!</p>
+                    </div>
+                    <!-- text mobile version -->
+                    <div class="mobile-text">
+                        <h1 class="pl-4">Świat pędzi do<br>przodu, przestań<br>być z tyłu, dogoń<br>i wyprzedź go!</h1>
+                        <p class="pl-4 pt-2">A co gdyby wymyśleć wszystko<br>na nowo?</p>
+                        <p class="py-4 pl-4">Zapisz się i osiągnij coś czego inni nie osiągną! Dostaniesz informację tylko na to, na co masz ochotę!</p>
+                    </div>
+                    <!------------------------->
+                    <input type="email" id="header-email-input" placeholder="Twój adres e-mail">
+                    <button type="submit" id="offer-download"></button>
+                </div>
+                <div class="header-right col-lg-5">
+                    <img src="assets/imgs/header-photo.png">
+                </div>
+            </div>
+            <div class="scroll-down col-lg-6 col-md-12 text-center pt-5 pl-4">
+                <a href="#more-scroll" class="scroll-arrow">
+                    <p>Zobacz więcej</p>
+                    <img id="arrow-value" src="assets/imgs/arrow.svg">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--           partners section           -->
+    <section id="partners">
+        <div class="container" style="padding-top: 6vh;">
+            <p class="py-4 px-4">Nasi partnerzy</p>
+            <div class="row text-center">
+                <div class="col-md-2 col-4">
+                    <img src="assets/imgs/partners/first-partner.jpg" width="90%">
+                </div>
+                <div class="col-md-2 col-4">
+                    <img src="assets/imgs/partners/first-partner.jpg" width="90%">
+                </div>
+                <div class="col-md-2 col-4">
+                    <img src="assets/imgs/partners/first-partner.jpg" width="90%">
+                </div>
+                <div class="col-md-2 col-4">
+                    <img src="assets/imgs/partners/first-partner.jpg" width="90%">
+                </div>
+                <div class="col-md-2 col-4">
+                    <img src="assets/imgs/partners/first-partner.jpg" width="90%">
+                </div>
+                <div class="col-md-2 col-4">
+                    <img src="assets/imgs/partners/first-partner.jpg" width="90%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--           igs bar section           -->
+    <section id="igs-bar" class="mt-5">
+        <div class="container">
+            <div class="row px-5 justify-content-center">
+                <div class="igs-left col-md-8 py-5 my-auto">
+                    <h2>IGS: Nasz sztandarowy system</h2>
+                    <p class="pb-3">Pozyskaj klientów innowacją, zdobądź nowe rynki, zwiększ sprzedaż</p>
+                    <p2>Infinity Growth Service</p2>
+                </div>
+                <div id="more-scroll"></div>
+                <div class="col-md-4 text-center my-auto">
+                    <a onclick="igsClickEvent();"><button class="btn button-dark">Sprawdź teraz</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal window for first carousel item -->
+    <div id="frModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title text-center px-3">Pozyskiwanie nowych klientów</h2>
+                </div>
+                <div class="modal-body">
+                    <p class="px-3">Czy wiesz, że pozyskiwanie klientów może być tak proste jak kliknięcie jednego przycisku na stronie internetowej?Nie wiedziałeś? My dostarczymy Ci takie rozwiązanie a Twój telefon zacznie dzwonić... Obsługujemy każdą branżę a system
+                        działa w pełni automatycznie (link do artykułu WIX).</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-close" data-dismiss="modal">Zamknij</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal window for second carousel item -->
+    <div id="secModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title text-center px-3">Pozyskiwanie finansowania</h2>
+                </div>
+                <div class="modal-body">
+                    <p class="px-3">Stresuje Cię walka o pozyskiwanie kolejnych pieniędzy z banku? Czy nie frustrujące są limity finansowań jakie możesz uzyskać lub oferowane warunki nad którymi nie masz kontroli?Zapomnij o tych problemach! Dostarczymy Ci rozwiązanie
+                        pozwalające zebrać finansowanie bezpośrednio od społeczności. Wielkość kapitału nigdy nie będzie problemem a Ty będziesz mógł zbierać pieniądze na inwestycje swojego biznesu. Dlaczego ludzie powierzą CI pieniądze? Nowe technologie
+                        sprawiają, że zabezpieczem będzie sprzęt, maszyny, urządzenia, pojazdy i inne rzeczy fizyczne który zakupisz i obie strony mogą czuć się bezpiecznie! (link do artykułu Tokenizacja).</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-close" data-dismiss="modal">Zamknij</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal window for third carousel item -->
+    <div id="thModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title text-center px-3">Automatyczny rozwój</h2>
+                </div>
+                <div class="modal-body">
+                    <p class="px-3">Zapewne wiesz, że XXI wiek to przede wszystkim automatyzacja, ale czy wiesz, że rozwój Twojego biznesu może również być automatyczny?Co gdyby Twoi klienci nie tylko kupowali Twoje produkty / usługi, ale również byli aktywnymi inwestorami
+                        wspierającymi Twój biznes? Co gdyby mogli zarabiać na tym, że Twój biznes rośnie i to w pełni automatycznie? Jak bardzo zwiększyłaby się dynamika rozwoju Twojej firmy? Sprawdź nasz sztandarowy system IGS! (link do artykułu IGS).</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-close" data-dismiss="modal">Zamknij</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--           carousel section           -->
+    <section id="carousel-fd">
+        <div class="container mt-5 mb-5">
+            <div id="carouselfd" class="carousel slide py-5" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselfd" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselfd" data-slide-to="1"></li>
+                    <li data-target="#carouselfd" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner no-gutters" style="position: relative;">
+                    <p2 class="px-3">Nowe korzyści</p2>
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 my-auto">
+                                <div>
+                                    <h2 class="px-3">Pozyskiwanie <br> klientów</h2>
+                                    <p class="px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus viverra tortor sed consequat.</p>
+                                    <button type="button" class="btn button-modal mt-3 mx-2" data-toggle="modal" data-target="#frModal">Czytaj dalej...</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="d-block w-100" src="assets/imgs/carousel/klienci.jpg" alt="First slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 my-auto">
+                                <div>
+                                    <h2 class="px-3">Pozyskiwanie finansowania</h2>
+                                    <p class="px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus viverra tortor sed consequat.</p>
+                                    <button type="button" class="btn button-modal mt-3 mx-2" data-toggle="modal" data-target="#secModal">Czytaj dalej...</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="d-block w-100" src="assets/imgs/carousel/finansowanie.jpg" alt="First slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 my-auto">
+                                <div>
+                                    <h2 class="px-3">Automatyczny <br> rozwój</h2>
+                                    <p class="px-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus viverra tortor sed consequat.</p>
+                                    <button type="button" class="btn button-modal mt-3 mx-2" data-toggle="modal" data-target="#thModal">Czytaj dalej...</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="d-block w-100" src="assets/imgs/carousel/rozwoj.jpg" alt="First slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="services-scroll"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--           faq section           -->
+    <section id="faq">
+        <div class="faq container pb-5">
+            <p class="text-center">Usługi</p>
+            <h1 class="text-center pb-5">Specjalizujemy się</h1>
+            <div class="row jusitfy-content-center">
+                <div class="faq-right col-md-4 py-5">
+                    <button id="first-faq" class="btn button-light" onclick="fn1()">&#9675; Jak pozyskam finansowanie?</button>
+                    <button id="second-faq" class="btn button-light" onclick="fn2()">&#9675; Ilu klientów pozyskam?</button>
+                    <button id="third-faq" class="btn button-light third-faq" onclick="fn3()">&#9675; Jak wygląda ryzyko?</button>
+                    <button id="fourth-faq" class="btn button-light fourth-faq" onclick="fn4()">&#9675; Jak wygląda wdrożenie?</button>
+                </div>
+                <div class="faq-left col-md-8 my-auto">
+                    <div id="faq1" class="text-center py-5">
+                        <img id="financing" width="100%">
+                        <h2 class='pt-4 pb-3 px-3 text-left'>Jak pozyskam finansowanie?</h2>
+                        <p class="text-left px-3 pb-3">Otrzymasz dostęp do systemu mogącego reaktywować znaczną część Twojej społeczności, która nigdy nie byłaby Twoimi klientami oraz sprawi, że zaangazują się w Twój biznes. Zależnie od wybranej usługi mogą kupić kampanie reklamowe
+                            , których celem będzie pozyskanie dla Ciebie klientów. Wyobraź sobie 100 klientów dających Ci 1000zł na prowadzenie dla nich kampanii reklamowych.. Celem tych kampanii będzie pozyskanie dla Ciebie klientów!? Ciekawe? Wiemy
+                            :) Ponadto jeśli będziesz potrzebował pieniędzy bezpośrednio na Twoje inwestycje, zdobędziesz je z rynku oraz od swoich klientów i skrócisz swój wieloletni plan wdrażając go znacznie szybciej. </p>
+                        <a href="#" onclick="exampleClickEvent();" class="button-faq d-block">
+                            <p class="pl-3">Zobacz więcej</p>
+                            <img src="assets/imgs/right-arrow.svg">
+                        </a>
+                    </div>
+
+                    <div id="faq2" class="text-center py-5">
+                        <img src="assets/imgs/faq/faq1.jpg" width="100%">
+                        <h2 class='pt-4 pb-3 px-3 text-left'>Ilu klientów pozyskam?</h2>
+                        <p class="text-left px-3 pb-3">Automatyczne zamawianie reklam przez Twoich klientów oraz wykorzystanie AI z którego korzystają ogromne korporacje, oznacza nieograniczony wzrost Twojego bzinesu. Chcesz zapomnieć o stresie związanym z niedoborem klientów, pieniędzy
+                            lub szukaniem sposobów na szybkie skalowanie Twojego projektu? Mamy dla Ciebie systemy, które rozwiązują Twoje problemy! </p>
+                        <a href="#" class="button-faq d-block">
+                            <p class="pl-3">Zobacz więcej</p>
+                            <img src="assets/imgs/right-arrow.svg">
+                        </a>
+                    </div>
+
+                    <div id="faq3" class="text-center py-5">
+                        <img src="assets/imgs/faq/faq1.jpg" width="100%">
+                        <h2 class='pt-4 pb-3 px-3 text-left'>Jak wygląda ryzyko?</h2>
+                        <p class="text-left px-3 pb-3">Brak ryzyka odgórnych kosztów licencyjnych Przetestuj nasze rozwiązania za darmo i zwiększ swój biznes już dziś! </p>
+                        <a href="#" class="button-faq d-block">
+                            <p class="pl-3">Zobacz więcej</p>
+                            <img src="assets/imgs/right-arrow.svg">
+                        </a>
+                    </div>
+
+                    <div id="faq4" class="text-center py-5">
+                        <img src="assets/imgs/faq/faq1.jpg" width="100%">
+                        <h2 class='pt-4 pb-3 px-3 text-left'>Jak wygląda wdrożenie?</h2>
+                        <p class="text-left px-3 pb-3">Na początku osobiscie sprawdzisz system na swojej firmie bez ponoszenia żadnych kosztów licencyjnych. Następnie dostaniesz od nas w pełni automatyczny system w postaci whitelabel’u, który na Twojej domenie obsłuży Twoich użytkowników,
+                            da im zarobić a Ty nie tylko pozyskasz kolejnych klientów, ale dodatkowo zbudujesz silną więź już z obecnymi.</p>
+                        <a href="#" class="button-faq d-block">
+                            <p class="pl-3">Zobacz więcej</p>
+                            <img src="assets/imgs/right-arrow.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="about-us-scroll"></div>
+        </div>
+    </section>
+
+    <!--           about us section for desktop           -->
+    <section id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="about-card col-md-6 col-12" id="first-card">
+                    <div class="card-border">
+                        <div class="body-card p-5">
+                            <img class="pb-4" src="assets/imgs/about_us/security.svg">
+                            <h3 class="pb-4">Bezpieczeństwo</h3>
+                            <p class="pt-3">Każde rozwiązanie wiąże sięz potrzebązastosowania najwyższych standardów bezpieczeństwa. W przypadku gdyby zaszła potrzeba zostanie przeprowadzony niezależny audyt dedykowanego Tobie wdrożenia. Dostarczamy gotowe systemy w
+                                postaci WhiteLabel, ale również budujemy rozwiązania szyte na miarę.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card col-md-6 col-12" id="second-card">
+                    <div class="card-border">
+                        <div class="body-card p-5">
+                            <img class="pb-4" src="assets/imgs/about_us/build.svg">
+                            <h3 class="pb-4">Build Tomorrow</h3>
+                            <p class="pt-3">Tradycyjna innowacja to dziś za mało. Dziś wymaga się od nas znacznie więcej niż tylko próba dorównania konkurencji. Kiedyś świat science fiction, dziś świat science.. Ludzie nie tylko pragną otrzymać więcej, ale oczekują
+                                tego od Ciebie. Odpowiedzią na to jest patrzenie daleko w przód i tworzenie nowej rzeczywistości. Naszą ideą jest budowanie rzeczy inaczej, lepiej i dać Tobie szansę zrobienia tego samego.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-md-4">
+                <div class="about-card col-md-6 col-12" id="third-card">
+                    <div class="card-border">
+                        <div class="body-card p-5">
+                            <img class="pb-4" src="assets/imgs/about_us/dynamic.svg">
+                            <h3 class="pb-4">Dynamika</h3>
+                            <p class="pt-3">Wierzymy, że dynamika rozwoju to kluczowy sposób na budowanie Twojego biznesu, który przyniesie Ci ogromne korzyści na każdej płaszczyźnie. Dlatego budujemy automatyczne systemy , których kluczowym celem jest sprawić aby Twoja
+                                firma weszła na wyższy poziom!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card col-md-6 col-12" id="fourth-card">
+                    <div class="card-border">
+                        <div class="body-card p-5">
+                            <img class="pb-4" src="assets/imgs/about_us/build.svg">
+                            <h3 class="pb-4">Misja</h3>
+                            <p class="pt-3">Misją FiveDreams jest dać ludziom siłę kreaowania świata bardziej dostępnego finansowo dla innych, ale także nich samych. Ludzie korzystają z FiveDreams aby tworzyć innowacyjne rozwiązania dla swoich biznesów, zwiększać sprzedaż,
+                                efektywność oraz budować swoje aktywa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--           about us section for mobile           -->
+    <section id="mobile-cards">
+        <div class="container">
+            <div id="mobile-cards-carousel" class="carousel slide py-5" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mobile-cards-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mobile-cards-carousel" data-slide-to="1"></li>
+                    <li data-target="#mobile-cards-carousel" data-slide-to="2"></li>
+                    <li data-target="#mobile-cards-carousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner no-gutters">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <div class="card-border">
+                                    <div class="body-card p-5">
+                                        <img class="pb-4" src="assets/imgs/about_us/security.svg">
+                                        <h3 class="pb-4">Bezpieczeństwo</h3>
+                                        <p class="pt-3">Każde rozwiązanie wiąże sięz potrzebązastosowania najwyższych standardów bezpieczeństwa. W przypadku gdyby zaszła potrzeba zostanie przeprowadzony niezależny audyt dedykowanego Tobie wdrożenia. Dostarczamy gotowe
+                                            systemy w postaci WhiteLabel, ale również budujemy rozwiązania szyte na miarę.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <div class="card-border">
+                                    <div class="body-card p-5">
+                                        <img class="pb-4" src="assets/imgs/about_us/build.svg">
+                                        <h3 class="pb-4">Build Tomorrow</h3>
+                                        <p class="pt-3">Tradycyjna innowacja to dziś za mało. Dziś wymaga się od nas znacznie więcej niż tylko próba dorównania konkurencji. Kiedyś świat science fiction, dziś świat science.. Ludzie nie tylko pragną otrzymać więcej,
+                                            ale oczekują tego od Ciebie. Odpowiedzią na to jest patrzenie daleko w przód i tworzenie nowej rzeczywistości. Naszą ideą jest budowanie rzeczy inaczej, lepiej i dać Tobie szansę zrobienia tego samego.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <div class="card-border">
+                                    <div class="body-card p-5">
+                                        <img class="pb-4" src="assets/imgs/about_us/dynamic.svg">
+                                        <h3 class="pb-4">Dynamika</h3>
+                                        <p class="pt-3">Wierzymy, że dynamika rozwoju to kluczowy sposób na budowanie Twojego biznesu, który przyniesie Ci ogromne korzyści na każdej płaszczyźnie. Dlatego budujemy automatyczne systemy , których kluczowym celem jest sprawić
+                                            aby Twoja firma weszła na wyższy poziom!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <div class="card-border">
+                                    <div class="body-card p-5">
+                                        <img class="pb-4" src="assets/imgs/about_us/build.svg">
+                                        <h3 class="pb-4">Misja</h3>
+                                        <p class="pt-3">Misją FiveDreams jest dać ludziom siłę kreaowania świata bardziej dostępnego finansowo dla innych, ale także nich samych. Ludzie korzystają z FiveDreams aby tworzyć innowacyjne rozwiązania dla swoich biznesów,
+                                            zwiększać sprzedaż, efektywność oraz budować swoje aktywa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--           contact section           -->
+    <section id="contact-main">
+        <div id="contact-bg">
+            <div class="container py-5 text-center text-white">
+                <p class="pt-5" style="color: white;">Kontakt</p>
+                <h2 style="color: white;">Zainteresowaliśmy Cię?</h2>
+                <h2 class="pb-3" style="color: white;">Skontaktuj się z nami</h2>
+                <a href="contact.html"><button class="btn contact-button mb-5">Umów spotkanie</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!--           footer nav bar section           -->
+    <section id="footer-bar" class="mt-5 mb-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="footer-logo col-md-3 my-auto">
+                    <a href="#"><img src="assets/imgs/logo.svg" width="80%"></a>
+                </div>
+                <div class="footer-nav col-md-6 my-auto text-center">
+                    <ul class="footer-ul">
+                        <a href="#about-us-scroll">
+                            <li class="footer-li">Firma</li>
+                        </a>
+                        <a href="#services-scroll">
+                            <li class="footer-li px-5">Usługi</li>
+                        </a>
+                        <a href="contact.html">
+                            <li class="footer-li">Kontakt</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-icon col-md-3 text-right">
+                    <img src="assets/imgs/li-icon.svg" width="20%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--           footer section           -->
+    <section id="footer">
+        <div class="container text-center">
+            <p>Wszelkie prawa zastrzeżone. Fivedreams.eu</p>
+        </div>
+    </section>
+</body>
+
+<!-- Bootstrap JS & JQUERY -->
+<script src="assets/bootstrap/bootstrap.min.js"></script>
+
+</html>
